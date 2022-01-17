@@ -1,0 +1,209 @@
+Capstone Test Plans
+Introduction: Welcome to the Project Phase!
+Previously, you prepared to begin your project by finding websites to test, finding selectors, and listing the major features of each site. Now, you’ve made it to the first official day of working on your project. Congrats! This is an exciting, yet overwhelming moment. It can be easy to not know where to begin. Fortunately, the first step is quite clear – you will be writing test plans.
+
+Draft Your Test Plan
+Create a Test Plan: In Trello (or similar) you should create your test plan.
+
+Determine Features to be Tested: Review the major features of the websites you’re testing. Add any features that you’ll be testing. Prioritizing these can be helpful. Smaller pieces are individually much easier to accomplish.
+
+Document Features not to be Tested: If you know you won’t test something, list it, and your reasoning.
+
+Outline Testing: Having an idea of how you will test each area of functionality is quite helpful. Test cases can be good, even if you’re just defining placeholders for now; they can keep you on track.
+
+Utilize the Rubric
+
+Make sure to read over the rubric as well. It is included at the bottom of these instructions and should help you with your planning.
+
+Outline a To Do List
+With a loose test plan, you should determine the tasks that need to be done to accomplish your testing. These tasks can be tracked in Trello as tasks that you can pick up and work on when it’s time.
+
+The following tasks will probably exist in every project; note that some of these bullet points would represent multiple tasks:
+
+Create a public GitHub repository
+
+Create required page objects
+
+With appropriate selectors
+
+With abstracted functionality
+
+Check for API requests that can be reproduced in Postman
+
+Plan ahead for iterable tests
+
+Determine needed test data
+
+Review
+Take a small break and look back over your tasks. Are you missing anything? Do you need to break anything down?
+
+Clean it up as you can! A lot of it will happen naturally as you go along.
+
+Set priorities - you should always know what you have to work on next.
+
+Do Not Skip
+Approval is required
+
+In order to properly finish this exercise, you need to obtain approval by a staff member. You will need to pass your test plans off with them. Hop in the queue when you are ready to have your plan reviewed.
+
+Rubric
+The following rubric details the requirements for this project. There are 36 points possible, and 26 points are required to pass.
+
+Passing Score: 26/36
+
+Section
+
+Detail
+
+0 Points
+
+1 Point
+
+2 Points
+
+3 Points
+
+Test Plan
+
+You must have submitted a good test plan, with each of the following documented: 1) What is being tested. 2) How testing will be accomplished. 3) Risks to look out for. 4) Links to automation, and other related assets.
+
+Not attempted
+
+The test plan is unclear, or lacking required content.
+
+Required elements are all present in the test plan, and it is adequately clear.
+
+The test plan has been extremely well maintained with links to test cases, documentation, automation, etc. Changes are well described, and the test summary report is well documented.
+
+Tests
+
+Your project tests 2 different websites and includes 10 or more tests for each website (at least 20 total).
+
+Not attempted
+
+The project includes fewer than 10 tests or only tests one website.
+
+The project tests 2 websites but has fewer than 20 tests total.
+
+The project tests 2 websites, with at least 10 tests per website.
+
+Manual Tests
+
+Your tests, whether broad or detailed, should cover the criteria covered by your test plan, and show good utilization of test design techniques.
+
+Not attempted
+
+You have not created enough test cases, or those you have do not include enough direction, and/or don’t include examples of each test design technique.
+
+Your tests sufficiently cover the needs of the application. Each major test design technique is used at least once.
+
+Your tests are thorough enough to cover the requirements and user experience, and have been tracked appropriately using the test execution subtasks. They also show excellent application of test design techniques.
+
+Automated Tests
+
+The tests you have automated should test the application effectively.
+
+Not attempted
+
+The automated tests do not cover even basic functionality of the features to be tested, or do not make sense.
+
+The automated test cases cover customer “happy” paths through the features to be tested.
+
+The automated tests thoroughly check the test criteria set out for the features to be tested.
+
+Soft Skills
+
+You must show effective soft skills in your documentation, such that a newcomer could understand your efforts by browsing your test plan, tests, etc.
+
+Not attempted
+
+Your documentation leaves room for far too many questions.
+
+Your testing efforts are sufficiently clear and understandable based solely on your documentation.
+
+Your documentation is clear, your tests well named, and even your variables and methods are well names in your automation to make things clearer.
+
+Collaboration
+
+You used source control tools and comments effectively to set yourself up for success on future projects.
+
+Not attempted
+
+Your code lacks sufficient comments and/or you did not use branching or pull requests to control your code contributions.
+
+Your code is sufficiently commented, and you used branches and pull requests to control your code contributions.
+
+Your comments make your code contributions simple to understand and use, and you used branches and pull requests extremely well.
+
+Abstraction
+
+You must leverage abstraction well in your automation, specifically using page objects and data files.
+
+Not attempted
+
+You are lacking abstraction like page objects or data files in your contributions.
+
+You have organized your automation with page objects that have methods, as well as data files to contain test data.
+
+Your code is well organized with effective methods in your page objects that will limit maintenance costs and efforts to add additional tests. Your data files are well conceived and easy to update as well.
+
+Reliable Execution
+
+Your automation should be stable enough to run on different machines/internet connections.
+
+Not attempted
+
+Your automation does not run reliably, failing due to differences in internet connections or devices.
+
+Your automation is adequately stable.
+
+The automation is extremely stable, using waits and other methods to cleanly handle different systems.
+
+Reliable Results
+
+Your automation should assert on the right things, producing effective results rather than false positives/negatives.
+
+Not attempted
+
+You are not asserting on the right criteria to test your functionality, and/or you have a number of false positives in your tests.
+
+The assertions in your tests are sufficient to identify whether the feature you are testing is working.
+
+Not only do the assertions look at the right conditions, but your code is well structured to avoid false positives.
+
+Reliable Iteration
+
+You have examples of effective iteration in your automation, running the same tests with different data.
+
+Not attempted
+
+Your automation lacks iteration.
+
+You step through test data to check different combinations of inputs and expected outputs.
+
+Your iteration is clear, stepping through data imported from data objects and creating a new test for each iteration.
+
+API Testing
+
+Wherever possible, you should attempt to recreate API requests that your application uses. (Identified through DevTools: Network Tab)
+
+Not attempted
+
+You did not document any attempts at using the API, or your notes were insufficient.
+
+You made a good attempt at testing the API and included notes about your attempts and their results in your test plan/test cases, along with any applicable documetnation/Postman exports.
+
+You were able to execute one or more API requests and used Postman/Newman to test that endpoint well, including the exported request/tests in your GitHub repository, and great comments in the test plan.
+
+Reports
+
+You report your progress in a number of ways, but for this project, sufficient bug reports need to be created, and your test summary report should cover your thoughts throughout the process. Visuals are encouraged.
+
+Not attempted
+
+You have not reported enough major problems, or have not included enough detail to reproduce issues, and/or your report is missing or incomplete.
+
+Your bug reports at least cover the most important problems present in the application with enough detail to reproduce the problems. Your report is sufficient to share key updates.
+
+You have excellent bug reports with great attention to detail, as well as a thorough test summary report that will let any reader understand how testing has gone.
+
