@@ -1,0 +1,27 @@
+{
+  "name": "qa-capstone-test-plan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GulenYilmaz/week14-QA-Monday-Tuesday-Wed-Thursday-CapstoneP-Test-Plans.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GulenYilmaz/week14-QA-Monday-Tuesday-Wed-Thursday-CapstoneP-Test-Plans/issues"
+  },
+  "homepage": "https://github.com/GulenYilmaz/week14-QA-Monday-Tuesday-Wed-Thursday-CapstoneP-Test-Plans#readme",
+  "dependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/selenium-webdriver": "^4.0.16",
+    "chromedriver": "^97.0.0",
+    "jest": "^27.4.7",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "description": ""
+}

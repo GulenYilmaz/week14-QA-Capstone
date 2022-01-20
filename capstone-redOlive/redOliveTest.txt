@@ -1,0 +1,68 @@
+User Story 6-  This test will do go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Appetizers on the dropdown succesfully.
+
+Login information for User Story 6:N/A
+
+1. Open your browser
+
+2. Navigate the https://redoliverestaurant.com/
+   *Verify that you are on the homepage
+   
+3. Click on the MENU button.
+   *On the top of the page.
+
+4. See the dropdown menu list.
+   *Appetizers, Breakfast, Soups, Salads, Gourment salads, Gyro specialties, Gyro combination, Burgers
+   Sandwiches, Deli Sandwiches, Wraps, Entrees, Sides, Beverages.
+
+5. Select the Appetizers.
+
+6. Verify the Breakfast menu on the middle of the page.
+   *User can see the Appetizers menu successfully.
+
+
+
+
+
+
+
+**Overview:**
+Once a user click the Menu button, they are able to see all dropdown list and select the Appetizers.
+
+**Links:**
+"https://redoliverestaurant.com/"
+
+**Test Criteria:** 
+Acceptance Criteria: 
+1.Open your browser
+2.Navigate the https://redoliverestaurant.com/
+3.Users can click the Menu button.
+4.User can select Appetizers
+
+
+**Steps to Reproduce**
+1. Open your browser
+2. Navigate the https://redoliverestaurant.com/
+3. Click the MENU button.
+4. Select the Breakfast.
+.
+
+**Expected Result**
+--User should be able to select the Appetizers.
+
+**Actual Result**
+--User should be able to select the Appetizers..
+
+**Environment**
+--Chrome v91
+--Window 64
+
+**Can be tested**
+-verify the page after click the menu button and see the dropdown menu and select the Appetizers.
+-screenshot
+
+**Test Passed**
+
+**Date**
+01/18/2022
+
+
