@@ -63,12 +63,12 @@ describe("Capstone Project- Chipotle User Story-5 , sign in a valid credentials"
     it("Verify the username on the top of the page.", async()=>{
         
         
-        let verifyUserName=  driver.findElement(By.xpath('//div[text()="Please try again later."]'))
+        let verifymessage=  driver.findElement(By.xpath('//div[text()="Please try again later."]'))
      
-        let verifyUserNameText =await verifyUserName.getText()
+        let verifymessageText =await verifymessage.getText()
      
 
-        expect(verifyUserNameText).toContain("Please try again later.")
+        expect(verifymessageText).toContain("Please try again later.")
 
         await driver.sleep(2000)
     })
