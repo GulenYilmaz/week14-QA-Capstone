@@ -20,4 +20,12 @@ module.exports= class MyChipotlePage{
         await this.driver.get(this.url)
         await this.driver.wait(until.elementLocated(this.homepagesignInbutton))
     }
+    
+    async clickSignInButton(){
+        let signInButton= await this.driver.findElement(By.xpath('//img[@alt="Sign In"]'))
+        signInButton.click()
+        jest.setTimeout(9000) 
+        
+    }
+
 }
