@@ -1,0 +1,64 @@
+User Story 6-  This test will do go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
+
+Login information for User Story 6:N/A
+
+1. Open your browser
+
+2. Navigate the https://redoliverestaurant.com/
+   *Verify that you are on the homepage
+   
+3. Click on the Gallery button.
+   *On the top of the page.
+
+4. See the dropdown menu list.
+   *Breakfast, lucnh, Gourment Salads, Dinner, Dessert.
+
+5. Verify the Sandwiches-Burgers-Coneys-Wraps menu on the middle of the page.
+   *User can see the menu successfully.
+
+
+
+
+
+
+
+**Overview:**
+Once a user navigate the https://redoliverestaurant.com/, they are able to click the Gallery button.
+
+**Links:**
+"https://redoliverestaurant.com/"
+
+**Test Criteria:** 
+Acceptance Criteria: 
+1.Open your browser
+2.Navigate the https://redoliverestaurant.com/
+3.Users can click the Gallery button.
+4.User can see the all Gallery button dropdown list.
+
+
+
+**Steps to Reproduce**
+1. Open your browser
+2. Navigate the https://redoliverestaurant.com/
+3. Click on the Gallery button.
+.
+
+**Expected Result**
+--User should be able to click the gallery button .
+
+**Actual Result**
+--User should be able to see the gallery menu on the page.
+
+**Environment**
+--Chrome v91
+--Window 64
+
+**Can be tested**
+-verify the page after click the gallery button 
+-screenshot
+
+**Test Passed**
+
+**Date**
+01/18/2022
+

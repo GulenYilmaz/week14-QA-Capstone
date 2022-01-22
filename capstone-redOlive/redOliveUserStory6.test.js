@@ -1,70 +1,73 @@
 // I need to to some require stuff first
 //we need selenium --> Builder and Capabilities for our driver
 //                 --> By for our selectors and our automation
-const { Builder, Capabilities, By } = require("selenium-webdriver") 
+const { Builder, Capabilities, By,until } = require("selenium-webdriver") 
 
 
 
-// whenever your code want to access to chrome it able to that
+
+
+
+
+
+
 const chromedriver= require('chromedriver')
 
-// driver to open the our browser
-//we are using Builder class for creating our driver, that driver is baseaxlly be able to use google chrome and it going to be build driver
+
 const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
+
 console.log("this is the driver", driver)
 
 
-//going to happen before for all test
-//beforeEach()
+jest.setTimeout(50000)
 
-//going to happen  ones before for all test
+
 beforeAll(async() =>{
-    jest.setTimeout(5000)
+    await driver.manage().window().maximize()
     await  driver.get('https://redoliverestaurant.com/')
 })
-//going to happen  ones after for all test
+
 afterAll(async()=>{
     jest.setTimeout(5000)
     await driver.quit()
 })
 
-describe("Capstone Project- Red Olive User Story-6, select the Apptizers from the MENU section ", ()=>{
+describe("Capstone Project- Red Olive User Story-6, select the Breakfast from the MENU section ", ()=>{
     
     it("Click on the MENU button.", async()=>{
         
         
-        let bookTitleInputField= await driver.findElement(By.xpath('//*[@id="title"]'))
-        await bookTitleInputField.sendKeys("The Connected Parent: Real-Life Strategies for Building Trust and Attachment ")
-        await driver.sleep(2000)
+        let MENUbutton=  driver.findElement(By.xpath('//a[@href="https://redoliverestaurant.com/breakfast-menu/"]'))
+        MENUbutton.click()
+        jest.setTimeout(9000) 
     })
 
-    it("See the dropdown MENU list", async()=>{
+    it("Click on the breakfast specialities button.", async()=>{
         
         
-        let pictureURLInputField= await driver.findElement(By.xpath('//*[@id="img"]'))
-        await pictureURLInputField.sendKeys("https://images-na.ssl-images-amazon.com/images/I/410sxwWFEUL._SX322_BO1,204,203,200_.jpg")
-        await driver.sleep(2000)
+        let breakfastSpecialitiesbutton=  driver.findElement(By.xpath('//h5[@class="et_pb_toggle_title"]'))
+        breakfastSpecialitiesbutton.click()
+        jest.setTimeout(9000) 
     })
     
-    it("Select the Appetizers.", async()=>{
+    it("Click on the Gyro Skillet button.", async()=>{
         
-        let pictureRateRadioButton= await driver.findElement(By.xpath('//*[@id="four"]'))
-        await pictureRateRadioButton.click()
-        await driver.sleep(2000)
+        
+        let GyroSkilletbutton=  driver.findElement(By.xpath('//p[@class="fdm-item-title"]'))
+        GyroSkilletbutton.click()
+        jest.setTimeout(9000) 
     })
 
+    it("Verify the Gyro Skillet price  on the right of the page.", async()=>{
 
-    it("Verify the Breakfast menu on the middle of the page.", async()=>{
-        
-        
-        let verifyBookname= await driver.findElement(By.xpath('//*[@id="books-container"]/div[11]/p'))
-     
-        let verifyBookNameText =await verifyBookname.getText()
-     
-
-        expect(verifyBookNameText).toContain("The Connected Parent: Real-Life Strategies for Building Trust and Attachment")
-
-        await driver.sleep(2000)
+         jest.setTimeout(9000) 
+         let breakfastMenuList=  driver.findElement(By.xpath('//h1[@class="et_pb_module_header"]'))
+         jest.setTimeout(9000) 
+         let breakfastMenuListText = breakfastMenuList.getAttribute('class')
+         jest.setTimeout(9000) 
+         console.log(breakfastMenuListText)
+         expect(breakfastMenuListText).toBe("et_pb_module_header")
+         jest.setTimeout(9000)
     })
 
 
