@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "d5c33a72-940e-4a6e-86c3-8a74b3f1f6b5",
+		"name": "Capstone-Red Olive",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://redoliverestaurant.com/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://redoliverestaurant.com/",
+					"protocol": "https",
+					"host": [
+						"redoliverestaurant",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://redoliverestaurant.com/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://redoliverestaurant.com/",
+					"protocol": "https",
+					"host": [
+						"redoliverestaurant",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+					"protocol": "https",
+					"host": [
+						"maps",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"maps",
+						"api",
+						"mapsjs",
+						"gen_204"
+					],
+					"query": [
+						{
+							"key": "csp_test",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
