@@ -1,0 +1,413 @@
+{
+	"info": {
+		"_postman_id": "a0e8af5b-5a1b-4fa5-a349-d83a8198bc3a",
+		"name": "Capstone-Chipotle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.chipotle.com/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.chipotle.com/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"chipotle",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1284536135&t=event&_s=1&dl=https://chipotle.com/order?utm_confid=uwk8j8a7m&utm_source=google&utm_medium=cpc&utm_campaign=ordering&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUBuNXDmxqRDs6WwYfSIEJ8eH1-sExaigAC6THwsjFLZRvyfXZ9iM0RoCTYcQAvD_BwE&gclsrc=aw.ds&dr=https://www.google.com/&dp=/order?utm_confid=uwk8j8a7m&utm_source=google&utm_medium=cpc&utm_campaign=ordering&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUBuNXDmxqRDs6WwYfSIEJ8eH1-sExaigAC6THwsjFLZRvyfXZ9iM0RoCTYcQAvD_BwE&gclsrc=aw.ds&ul=en-us&de=UTF-8&dt=Chipotle Mexican Grill - Mexican Food - Restaurant & Catering&sd=24-bit&sr=1920x1080&vp=1218x929&je=0&ec=customer&ea=sign-in-success&el=rewards-enrolled&_u=aDDAAUAjAAAAgC~&jid=354418394&gjid=939638736&cid=1637446726.1642435616&tid=UA-5654566-70&_gid=1259250327.1642990761&_r=1&gtm=2wg1j05HCBQ7C&cd12=GTM-5HCBQ7C&cd13=167&cd15=Sun Jan 23 2022 21:23:40 GMT-0500 (Eastern Standard Time)&cd16=5&cd17=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&cd18=English - US&cd19=desktop&cd20=1&cd2=1637446726.1642435616&z=475653847",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1284536135&t=event&_s=1&dl=https://chipotle.com/order?utm_confid=uwk8j8a7m&utm_source=google&utm_medium=cpc&utm_campaign=ordering&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUBuNXDmxqRDs6WwYfSIEJ8eH1-sExaigAC6THwsjFLZRvyfXZ9iM0RoCTYcQAvD_BwE&gclsrc=aw.ds&dr=https://www.google.com/&dp=/order?utm_confid=uwk8j8a7m&utm_source=google&utm_medium=cpc&utm_campaign=ordering&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUBuNXDmxqRDs6WwYfSIEJ8eH1-sExaigAC6THwsjFLZRvyfXZ9iM0RoCTYcQAvD_BwE&gclsrc=aw.ds&ul=en-us&de=UTF-8&dt=Chipotle Mexican Grill - Mexican Food - Restaurant & Catering&sd=24-bit&sr=1920x1080&vp=1218x929&je=0&ec=customer&ea=sign-in-success&el=rewards-enrolled&_u=aDDAAUAjAAAAgC~&jid=354418394&gjid=939638736&cid=1637446726.1642435616&tid=UA-5654566-70&_gid=1259250327.1642990761&_r=1&gtm=2wg1j05HCBQ7C&cd12=GTM-5HCBQ7C&cd13=167&cd15=Sun Jan 23 2022 21:23:40 GMT-0500 (Eastern Standard Time)&cd16=5&cd17=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&cd18=English - US&cd19=desktop&cd20=1&cd2=1637446726.1642435616&z=475653847",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google-analytics",
+						"com"
+					],
+					"path": [
+						"j",
+						"collect"
+					],
+					"query": [
+						{
+							"key": "v",
+							"value": "1"
+						},
+						{
+							"key": "_v",
+							"value": "j96"
+						},
+						{
+							"key": "a",
+							"value": "1284536135"
+						},
+						{
+							"key": "t",
+							"value": "event"
+						},
+						{
+							"key": "_s",
+							"value": "1"
+						},
+						{
+							"key": "dl",
+							"value": "https://chipotle.com/order?utm_confid=uwk8j8a7m"
+						},
+						{
+							"key": "utm_source",
+							"value": "google"
+						},
+						{
+							"key": "utm_medium",
+							"value": "cpc"
+						},
+						{
+							"key": "utm_campaign",
+							"value": "ordering"
+						},
+						{
+							"key": "gclid",
+							"value": "CjwKCAiAlrSPBhBaEiwAuLSDUBuNXDmxqRDs6WwYfSIEJ8eH1-sExaigAC6THwsjFLZRvyfXZ9iM0RoCTYcQAvD_BwE"
+						},
+						{
+							"key": "gclsrc",
+							"value": "aw.ds"
+						},
+						{
+							"key": "dr",
+							"value": "https://www.google.com/"
+						},
+						{
+							"key": "dp",
+							"value": "/order?utm_confid=uwk8j8a7m"
+						},
+						{
+							"key": "utm_source",
+							"value": "google"
+						},
+						{
+							"key": "utm_medium",
+							"value": "cpc"
+						},
+						{
+							"key": "utm_campaign",
+							"value": "ordering"
+						},
+						{
+							"key": "gclid",
+							"value": "CjwKCAiAlrSPBhBaEiwAuLSDUBuNXDmxqRDs6WwYfSIEJ8eH1-sExaigAC6THwsjFLZRvyfXZ9iM0RoCTYcQAvD_BwE"
+						},
+						{
+							"key": "gclsrc",
+							"value": "aw.ds"
+						},
+						{
+							"key": "ul",
+							"value": "en-us"
+						},
+						{
+							"key": "de",
+							"value": "UTF-8"
+						},
+						{
+							"key": "dt",
+							"value": "Chipotle Mexican Grill - Mexican Food - Restaurant "
+						},
+						{
+							"key": " Catering",
+							"value": null
+						},
+						{
+							"key": "sd",
+							"value": "24-bit"
+						},
+						{
+							"key": "sr",
+							"value": "1920x1080"
+						},
+						{
+							"key": "vp",
+							"value": "1218x929"
+						},
+						{
+							"key": "je",
+							"value": "0"
+						},
+						{
+							"key": "ec",
+							"value": "customer"
+						},
+						{
+							"key": "ea",
+							"value": "sign-in-success"
+						},
+						{
+							"key": "el",
+							"value": "rewards-enrolled"
+						},
+						{
+							"key": "_u",
+							"value": "aDDAAUAjAAAAgC~"
+						},
+						{
+							"key": "jid",
+							"value": "354418394"
+						},
+						{
+							"key": "gjid",
+							"value": "939638736"
+						},
+						{
+							"key": "cid",
+							"value": "1637446726.1642435616"
+						},
+						{
+							"key": "tid",
+							"value": "UA-5654566-70"
+						},
+						{
+							"key": "_gid",
+							"value": "1259250327.1642990761"
+						},
+						{
+							"key": "_r",
+							"value": "1"
+						},
+						{
+							"key": "gtm",
+							"value": "2wg1j05HCBQ7C"
+						},
+						{
+							"key": "cd12",
+							"value": "GTM-5HCBQ7C"
+						},
+						{
+							"key": "cd13",
+							"value": "167"
+						},
+						{
+							"key": "cd15",
+							"value": "Sun Jan 23 2022 21:23:40 GMT-0500 (Eastern Standard Time)"
+						},
+						{
+							"key": "cd16",
+							"value": "5"
+						},
+						{
+							"key": "cd17",
+							"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+						},
+						{
+							"key": "cd18",
+							"value": "English - US"
+						},
+						{
+							"key": "cd19",
+							"value": "desktop"
+						},
+						{
+							"key": "cd20",
+							"value": "1"
+						},
+						{
+							"key": "cd2",
+							"value": "1637446726.1642435616"
+						},
+						{
+							"key": "z",
+							"value": "475653847"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chipotle.com/libs/granite/csrf/token.json?",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://chipotle.com/libs/granite/csrf/token.json?",
+					"protocol": "https",
+					"host": [
+						"chipotle",
+						"com"
+					],
+					"path": [
+						"libs",
+						"granite",
+						"csrf",
+						"token.json"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://services.chipotle.com/auth/v1/customerauth/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://services.chipotle.com/auth/v1/customerauth/login",
+					"protocol": "https",
+					"host": [
+						"services",
+						"chipotle",
+						"com"
+					],
+					"path": [
+						"auth",
+						"v1",
+						"customerauth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://capture.trackjs.com/capture?token=8f6744a50bbd43fe8e20564e7c682048&v=3.6.0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://capture.trackjs.com/capture?token=8f6744a50bbd43fe8e20564e7c682048&v=3.6.0",
+					"protocol": "https",
+					"host": [
+						"capture",
+						"trackjs",
+						"com"
+					],
+					"path": [
+						"capture"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "8f6744a50bbd43fe8e20564e7c682048"
+						},
+						{
+							"key": "v",
+							"value": "3.6.0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://tr.snapchat.com/collector/is_enabled?pids=56168ce5-b2ac-4329-bb6d-ee88fdb227fb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tr.snapchat.com/collector/is_enabled?pids=56168ce5-b2ac-4329-bb6d-ee88fdb227fb",
+					"protocol": "https",
+					"host": [
+						"tr",
+						"snapchat",
+						"com"
+					],
+					"path": [
+						"collector",
+						"is_enabled"
+					],
+					"query": [
+						{
+							"key": "pids",
+							"value": "56168ce5-b2ac-4329-bb6d-ee88fdb227fb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chipotle.com/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://chipotle.com/",
+					"protocol": "https",
+					"host": [
+						"chipotle",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://vice-prod.sdiapi.com/vicePrm/chipotle/chipotle?t=5476800",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://vice-prod.sdiapi.com/vicePrm/chipotle/chipotle?t=5476800",
+					"protocol": "https",
+					"host": [
+						"vice-prod",
+						"sdiapi",
+						"com"
+					],
+					"path": [
+						"vicePrm",
+						"chipotle",
+						"chipotle"
+					],
+					"query": [
+						{
+							"key": "t",
+							"value": "5476800"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
