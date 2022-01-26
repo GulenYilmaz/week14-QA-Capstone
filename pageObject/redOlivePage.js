@@ -1,5 +1,5 @@
 const { By,until } = require("selenium-webdriver");
-
+jest.setTimeout(50000)
 module.exports= class MyRedOlivePage{
     driver;
     url;
@@ -19,8 +19,9 @@ module.exports= class MyRedOlivePage{
     /* Methods*/
 
     async navigateToredoliveHomePage(){
-        
+        await this. driver.manage().window().maximize()
         await this.driver.get(this.url)
+        jest.setTimeout(9000)
         await this.driver.wait(until.elementLocated(this.menubutton))
     }
     async clickMenuButton(){
