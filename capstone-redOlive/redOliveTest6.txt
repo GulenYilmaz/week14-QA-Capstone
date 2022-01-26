@@ -10,13 +10,7 @@ Login information for User Story 6:N/A
 3. Click on the MENU button.
    *On the top of the page.
 
-4. See the dropdown menu list.
-   *Appetizers, Breakfast, Soups, Salads, Gourment salads, Gyro specialties, Gyro combination, Burgers
-   Sandwiches, Deli Sandwiches, Wraps, Entrees, Sides, Beverages.
-
-5. Select the Breakfast and click on the Gyro Skillet, see the price and back to the breakfast menu.
-
-6. Verify the Breakfast menu on the middle of the page.
+4. Verify the Breakfast menu url on the page.
    *User can see the Breakfast menu successfully.
 
 
@@ -26,7 +20,7 @@ Login information for User Story 6:N/A
 
 
 **Overview:**
-Once a user click the Menu button, they are able to see all dropdown list and select the Breakfast.
+Once a user click the Menu button, they are able to see all dropdown list and select the Breakfast and verify the breakfast menu url.
 
 **Links:**
 "https://redoliverestaurant.com/"
@@ -44,13 +38,13 @@ Acceptance Criteria:
 2. Navigate the https://redoliverestaurant.com/
 3. Click the MENU button.
 4. Select the Breakfast.
-.
+5. verify the menu button Url.
 
 **Expected Result**
---User should be able to select the Breakfast.
+--User should be able to see the Breakfast menu .
 
 **Actual Result**
---User should be able to select the Breakfast..
+--User should be able to see and verify the Breakfast menu url.
 
 **Environment**
 --Chrome v91
