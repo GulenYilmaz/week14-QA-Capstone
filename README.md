@@ -57,6 +57,9 @@ Automation functionality tests of:
 ## <a name="api"></a>API-Postman
 Postman: 
 <br>[CHIPOTLE](https://www.chipotle.com/) - https://github.com/GulenYilmaz/week14-QA-Capstone/tree/main/capstone-chipotle/API-postman-chipotle-screenshots<br>
+
+Postman: 
+
 [REDOLIVE](https://redoliverestaurant.com/) - https://github.com/GulenYilmaz/week14-QA-Capstone/tree/main/capstone-redOlive/API-postman-redolive-screenshots
 
 
