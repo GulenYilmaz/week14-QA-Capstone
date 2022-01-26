@@ -29,7 +29,8 @@
 
 ---
 ## Projects
-#### Capstone  [Chipotle-RedOlive](https://github.com/GulenYilmaz/week14-QA-Monday-Tuesday-Wed-Thursday-Capstone-Test-Plans)
+#### Capstone  [Chipotle](https://github.com/GulenYilmaz/week14-QA-Monday-Tuesday-Wed-Thursday-Capstone-Test-Plans)
+#### Capstone  [RedOlive](https://github.com/GulenYilmaz/week14-QA-Monday-Tuesday-Wed-Thursday-Capstone-Test-Plans)
 
 ---
 ## <a name="summary"></a>Summary
