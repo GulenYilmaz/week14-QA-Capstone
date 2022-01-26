@@ -1,5 +1,5 @@
 const { By,until } = require("selenium-webdriver");
-
+jest.setTimeout(50000)
 module.exports= class MyChipotlePage{
     driver;
     url;
@@ -17,14 +17,49 @@ module.exports= class MyChipotlePage{
     /* Methods*/
 
     async navigateToChipotleHomePage(){
+        await this. driver.manage().window().maximize()
         await this.driver.get(this.url)
+        jest.setTimeout(9000)
         await this.driver.wait(until.elementLocated(this.homepagesignInbutton))
+     
     }
     
     async clickSignInButton(){
-        let signInButton= await this.driver.findElement(By.xpath('//img[@alt="Sign In"]'))
+        let signInButton= await this.driver.findElement(this.homepagesignInbutton)
         signInButton.click()
-        jest.setTimeout(9000) 
+        await this.driver.wait(until.elementLocated(this.emailinputfield))
+        jest.setTimeout(9000)
+        
+    }
+    async clickEmailInputField(){
+        let emailButton= await this.driver.findElement(this.emailinputfield)
+        emailButton.click()
+        await emailButton.sendKeys("userstory6chipotle@gmail.com")
+        await this.driver.sleep(2000)
+        
+    }
+    async clickPasswordInputField(){
+        let passwordButton= await this.driver.findElement(this.passwordinputfield)
+        passwordButton.click()
+        await passwordButton.sendKeys("Userstory6*")
+        await this.driver.sleep(2000)
+        
+    }
+    async clicksingInButton(){
+        let SignIn= await this.driver.findElement(this.signIn)
+        SignIn.click()
+        await this.driver.sleep(5000)
+        
+    }
+    async verifyNegatifTest(){
+        let verifymessage= await this.driver.findElement(this.verifyErrorMessage)
+     
+        let verifymessageText =await verifymessage.getText()
+     
+
+        expect(verifymessageText).toContain("Please try again later.")
+
+        await this.driver.sleep(5000)
         
     }
 
