@@ -4,7 +4,7 @@ const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
 const REDOLIVE=require ('../pageObject/redOlivePage')
 const MyRedOlivePage=new REDOLIVE (driver,'https://redoliverestaurant.com/')
-
+jest.setTimeout(9000) 
 
 
 // beforeAll(async() =>{
@@ -13,7 +13,7 @@ const MyRedOlivePage=new REDOLIVE (driver,'https://redoliverestaurant.com/')
 // afterAll(async ()=>{
 // await MyRedOlivePage.driver.quit()
 // })
-
+jest.setTimeout(500000)
 test("redolive page object test", async()=>{
 await MyRedOlivePage.navigateToredoliveHomePage()
 await MyRedOlivePage.clickMenuButton()
