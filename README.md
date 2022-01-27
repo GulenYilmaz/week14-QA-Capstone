@@ -22,7 +22,7 @@
 
 
 * [ Summary](#summary)
-* [ Trello-Manuel Tests](#trello)
+* [ Trello-Manual Tests](#trello)
 * [ Automation Tests with Page Object](#automation)
 * [ API-Postman](#api)
 
@@ -40,7 +40,7 @@ Testing the functionality of:
 
 
 ---
-## <a name="trello"></a>Trello-Manuel Tests
+## <a name="trello"></a>Trello-Manual Tests
 Trello Board Links for Chipotle and RedOlive: 
 <br>[CHIPOTLE-Trello](https://www.chipotle.com/) - https://trello.com/b/LOr1YDxZ/capstone-chipotle-test-plan<br>
 [REDOLIVE-Trello](https://redoliverestaurant.com/) - https://trello.com/b/G8mggTxH/capstone-red-olive-test-plan
