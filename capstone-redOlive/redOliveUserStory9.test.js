@@ -47,12 +47,15 @@ describe("Capstone Project- Red Olive User Story-6, select the Breakfast from th
     it("Verify the unch-burgers-coneys-wraps-sandwiches url.", async()=>{
         
     
-    let URLgaleryList=  driver.getTitle()
-   
-
-
+    let URLgaleryList=  driver.getCurrentUrl()
+    jest.setTimeout(500000)
     console.log(URLgaleryList)
-    //expect(URLgaleryList).toBe("https://redoliverestaurant.com/lunch-burgers-coneys-wraps-sandwiches/")
+
+    let steakSandwichImage= driver.findElement(By.xpath('//h1[@style="text-align: center;"]'))
+    jest.setTimeout(500000)
+    let steakSandwichImageText=steakSandwichImage.getText()
+    jest.setTimeout(500000)
+    expect(steakSandwichImageText).toBeTruthy();
     jest.setTimeout(9000)
     })
 

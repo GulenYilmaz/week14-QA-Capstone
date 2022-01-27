@@ -27,10 +27,10 @@ beforeAll(async() =>{
     await  driver.get('https://redoliverestaurant.com/')
 })
 
-// afterAll(async()=>{
-//     jest.setTimeout(5000)
-//     await driver.quit()
-// })
+afterAll(async()=>{
+    jest.setTimeout(5000)
+    await driver.quit()
+})
 
 describe("Capstone Project- Red Olive User Story-6, select the Breakfast from the MENU section ", ()=>{
     
@@ -68,6 +68,12 @@ describe("Capstone Project- Red Olive User Story-6, select the Breakfast from th
         console.log("Current URL is: " + verifyURL)
         expect(verifyURL).toContain('https://redoliverestaurant.com/')
          jest.setTimeout(9000)
+
+// let verifyTitle= driver.getTitle()
+// console.log("Current title is: " + verifyTitle)
+//         expect(verifyTitle).toContain('[object Promise]')
+//          jest.setTimeout(9000)
+
     })
 
 
