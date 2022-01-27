@@ -1,11 +1,11 @@
-User Story 4 -  This test will do go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
+User Story 4 -  This test will go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after clicking on Menu section user can select Breakfast on the dropdown succesfully.
 
-Login information for User Story4 :N/A
+Login information for User Story 4 :N/A
 
 1. Open your browser
 
-2. Navigate the https://redoliverestaurant.com/
-   *Verify that you are on the homepage
+2. Navigate to  https://redoliverestaurant.com/
+   *Verify that you are on the homepage.
    
 3. Click on the MENU button.
    *On the top of the page.
@@ -14,7 +14,7 @@ Login information for User Story4 :N/A
 
 
 **Overview:**
-Once a user click on the Menu button.
+Once a user clicks on the Menu button.
 
 **Links:**
 "https://redoliverestaurant.com/"
@@ -22,20 +22,20 @@ Once a user click on the Menu button.
 **Test Criteria:** 
 Acceptance Criteria: 
 1.Open your browser
-2.Navigate the https://redoliverestaurant.com/
-3.Users can click the Menu button.
+2.Navigate to https://redoliverestaurant.com/
+3.Users can click on the Menu button.
 
 
 **Steps to Reproduce**
 1. Open your browser
-2. Navigate the https://redoliverestaurant.com/
+2. Navigate to https://redoliverestaurant.com/
 3. Click the MENU button.
 
 **Expected Result**
 --User should be able to click on the menu button.
 
 **Actual Result**
---User should be able to click on the menu button.
+--User is able to click on the menu button.
 
 **Environment**
 --Chrome v91

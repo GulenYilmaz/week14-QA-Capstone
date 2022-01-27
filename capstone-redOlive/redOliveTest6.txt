@@ -1,10 +1,10 @@
-User Story 6 -  This test will do go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
+User Story 6 -  This test will go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
 
 Login information for User Story 6:N/A
 
 1. Open your browser
 
-2. Navigate the https://redoliverestaurant.com/
+2. Navigate to https://redoliverestaurant.com/
    *Verify that you are on the homepage
    
 3. Click on the MENU button.
@@ -20,7 +20,7 @@ Login information for User Story 6:N/A
 
 
 **Overview:**
-Once a user click the Menu button, they are able to see all dropdown list and select the Breakfast and verify the breakfast menu url.
+Once a user clicks the Menu button, they are able to see the entire dropdown list and select the Breakfast and verify the breakfast menu url.
 
 **Links:**
 "https://redoliverestaurant.com/"
@@ -28,23 +28,23 @@ Once a user click the Menu button, they are able to see all dropdown list and se
 **Test Criteria:** 
 Acceptance Criteria: 
 1.Open your browser
-2.Navigate the https://redoliverestaurant.com/
-3.Users can click on the Menu button.
-4.User can select Breakfast
+2.Navigate to https://redoliverestaurant.com/
+3.User can click on the Menu button.
+4.User can select Breakfast.
 
 
 **Steps to Reproduce**
 1. Open your browser
-2. Navigate the https://redoliverestaurant.com/
+2. Navigate to https://redoliverestaurant.com/
 3. Click on the MENU button.
-4. Select the Breakfast.
-5. verify the menu button`s Url.
+4. Select Breakfast.
+5. Verify the menu button`s URL.
 
 **Expected Result**
 --User should be able to see the Breakfast menu .
 
 **Actual Result**
---User should be able to see and verify the Breakfast menu url.
+--User is able to see and verify the Breakfast menu URL.
 
 **Environment**
 --Chrome v91

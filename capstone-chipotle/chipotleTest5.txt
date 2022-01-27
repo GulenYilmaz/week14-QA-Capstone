@@ -44,19 +44,19 @@ Once a user clicks on the sign in button, they are able to sign in with valid cr
 Acceptance Criteria: 
 1.Open your browser
 2.Navigate the https://www.chipotle.com/
-3.Users can click on the sign in button.
-4.Users can click on the email input field and enter a valid email.
-5.Users can click on the password input field and enter a valid  password.
+3.User can click on the sign in button.
+4.User can click on the email input field and enter a valid email.
+5.User can click on the password input field and enter a valid  password.
 6.User can click on the sign in button.
 
 
 **Steps to Reproduce**
 1. Open your browser
 2. Navigate the https://www.chipotle.com/
-3. Click the sign in button.
-4. Click the email input field and sent a valid email.
-5. Click the password input field and sent a valid  password.
-6. Click the sign in button.
+3. Click on  the sign in button.
+4. Click on the email input field and enter a valid email.
+5. Click on the password input field and enter a valid  password.
+6. Click on the sign in button.
 7. See the username on the left of the page.
 
 
@@ -64,14 +64,14 @@ Acceptance Criteria:
 --User should be able to log in and see the username on the left side on the page.
 
 **Actual Result**
---Username was displayed on the left left side of  the page.
+--Username was displayed on the left side of the page.
 
 **Environment**
 --Chrome v91
 --Window 64
 
 **Can be tested**
--verify the page after click the sign in button with valid credentials.
+-verify the page after clicking the sign in button with valid credentials.
 -User can  log in.
 -screenshot
 
