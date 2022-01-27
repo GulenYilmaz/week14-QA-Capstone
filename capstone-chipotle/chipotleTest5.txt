@@ -1,4 +1,5 @@
-User Story 5-Negative test case:  This test will do go through the sign in functions the 'https://www.chipotle.com/' and verify that each input fields are correctly work for succesfully sing in with a valid credentials.
+Automation Test
+User Story 5- Negative test case:  This test will go through the sign in functions for the 'https://www.chipotle.com/' and verify that each input field works correctly, allowing successful sign in with valid credentials.
 
 Login information for User Story 5:
 **Valid Credentials**
@@ -7,44 +8,47 @@ password=UserStory7*
 
 1. Open your browser
 
-2. Navigate the https://www.chipotle.com/
+2. Navigate to the https://www.chipotle.com
    *Verify that you are on the homepage
    
 3. Click on the sign in button.
 
-4. Click on the email input field and sent a valid email.
-   *write the book URL as "userstory7@gmail.com"
+4. Click on the email input field and enter a valid email address.
+   *Enter email as: userstory7@gmail.com.
 
-5. Click on the password input field and sent a valid  password.
-   * UserStory7*.
+5. Click on the password input field and enter a valid  password.
+   *Enter password as: UserStory7*.
 
 6. Click on the sign in button.
-   *User can sign in successfully.
+   *User should be signed in successfully.
 
 7.Verify the username on the top of the page.
-
-The website should not allow to automatied/browser/controlled logged in.
-
-
-
+   
+NOTE: This test was executed only manually due to the website not allowing for automated testing.
+//NOTE from the website:The website should not allow to automated/browser/controlled logged in.
 
 
 
+
+
+Trello-Manual Test
 **Overview:**
-Once a user click the sign in button, they are able to sign in with valid credentials.
+Once a user clicks on the sign in button, they are able to sign in with valid credentials.
 
 **Links:**
 "https://www.chipotle.com/"
 
 **Test Criteria:** 
+
+
 Acceptance Criteria: 
 1.Open your browser
 2.Navigate the https://www.chipotle.com/
-3.Users can click the sign in button.
-4.Users can click the email input field and sent a valid email.
-5.Users can click the password input field and sent a valid  password.
-6.User can click the sign in button.
-7.User can sign in successfully and see the user name on the left side on the page.
+3.Users can click on the sign in button.
+4.Users can click on the email input field and enter a valid email.
+5.Users can click on the password input field and enter a valid  password.
+6.User can click on the sign in button.
+
 
 **Steps to Reproduce**
 1. Open your browser
@@ -57,10 +61,10 @@ Acceptance Criteria:
 
 
 **Expected Result**
---User should be able to log in .
+--User should be able to log in and see the username on the left side on the page.
 
 **Actual Result**
---The website should not allow to automatied/browser/controlled logged in.
+--Username was displayed on the left left side of  the page.
 
 **Environment**
 --Chrome v91

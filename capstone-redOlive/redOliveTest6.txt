@@ -1,4 +1,4 @@
-User Story 6-  This test will do go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
+User Story 6 -  This test will do go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
 
 Login information for User Story 6:N/A
 
@@ -29,16 +29,16 @@ Once a user click the Menu button, they are able to see all dropdown list and se
 Acceptance Criteria: 
 1.Open your browser
 2.Navigate the https://redoliverestaurant.com/
-3.Users can click the Menu button.
+3.Users can click on the Menu button.
 4.User can select Breakfast
 
 
 **Steps to Reproduce**
 1. Open your browser
 2. Navigate the https://redoliverestaurant.com/
-3. Click the MENU button.
+3. Click on the MENU button.
 4. Select the Breakfast.
-5. verify the menu button Url.
+5. verify the menu button`s Url.
 
 **Expected Result**
 --User should be able to see the Breakfast menu .
@@ -51,7 +51,7 @@ Acceptance Criteria:
 --Window 64
 
 **Can be tested**
--verify the page after click the menu button and see the dropdown menu and select the Breakfast.
+-verify the page after click on the menu button and see the dropdown menu and select the Breakfast.
 -screenshot
 
 **Test Passed**
