@@ -1,3 +1,4 @@
+Automation Test
 User Story 4 -  This test will go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after clicking on Menu section user can select Breakfast on the dropdown succesfully.
 
 Login information for User Story 4 :N/A
@@ -12,7 +13,7 @@ Login information for User Story 4 :N/A
 
 
 
-
+Manual Test from Trello
 **Overview:**
 Once a user clicks on the Menu button.
 
@@ -42,7 +43,7 @@ Acceptance Criteria:
 --Window 64
 
 **Can be tested**
--verify the page after click the menu button.
+-verify the page after click on the menu button.
 -screenshot
 
 **Test Passed**

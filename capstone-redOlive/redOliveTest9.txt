@@ -1,3 +1,4 @@
+Automation Test
 User Story 9 -  This test will go through the MENU section functions the 'https://redoliverestaurant.com/' and verify that after click on Menu section user can select Breakfast on the dropdown succesfully.
 
 Login information for User Story 6:N/A
@@ -10,10 +11,7 @@ Login information for User Story 6:N/A
 3. Click on the Gallery button.
    *On the top of the page.
 
-4. See the dropdown menu list.
-   *Breakfast, Lunch, Gourment Salads, Dinner, Dessert.
-
-5. Verify the Sandwiches-Burgers-Coneys-Wraps menu on the middle of the page.
+4. Verify the Sandwiches-Burgers-Coneys-Wraps menu on the middle of the page.
    *User can see the menu successfully.
 
 
@@ -21,7 +19,7 @@ Login information for User Story 6:N/A
 
 
 
-
+Manual Test from Trello
 **Overview:**
 Once a user navigate to https://redoliverestaurant.com/, they are able to click the Gallery button.
 
@@ -33,7 +31,7 @@ Acceptance Criteria:
 1.Open your browser
 2.Navigate to https://redoliverestaurant.com/
 3.User can click the Gallery button.
-4.User can see the entire Gallery button dropdown list.
+
 
 
 
@@ -44,7 +42,7 @@ Acceptance Criteria:
 
 
 **Expected Result**
---User should be able to click the gallery button .
+--User should be able to click on  the gallery button .
 
 **Actual Result**
 --User is able to see the gallery menu on the page.
@@ -54,7 +52,7 @@ Acceptance Criteria:
 --Window 64
 
 **Can be tested**
--verify the page after click the gallery button 
+-verify the page after click on the gallery button 
 -screenshot
 
 **Test Passed**
