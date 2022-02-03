@@ -78,4 +78,5 @@ Acceptance Criteria:
 
 valid email=userstory7@gmail.com
 password=UserStory7*
+https://youtu.be/AaTZ6g_NGek
 
