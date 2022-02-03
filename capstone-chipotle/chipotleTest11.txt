@@ -14,10 +14,10 @@ password=UserStory7*
 3. Click on the sign in button.
 
 4. Click on the email input field and enter a valid email address.
-   *Enter email as: userstory7@gmail.com.
+   *Enter email as: userstory6chipotle@gmail.com.
 
 5. Click on the password input field and enter a valid  password.
-   *Enter password as: UserStory7*.
+   *Enter password as: Userstory6*.
 
 6. Click on the sign in button.
    *User should be signed in successfully.
@@ -25,7 +25,7 @@ password=UserStory7*
 7.Verify the username on the top of the page.
    
 NOTE: This test was executed only manually due to the website not allowing for automated testing.
-//NOTE from the website:The website should not allow to automated/browser/controlled logged in.
+//NOTE from the website:The website does not allow to automated/browser/controlled logged in.
 
 
 
