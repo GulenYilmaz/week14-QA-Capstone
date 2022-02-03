@@ -1,5 +1,5 @@
 Automation Test
-User Story 5- Negative test case:  This test will go through the sign in functions for the 'https://www.chipotle.com/' and verify that each input field works correctly, allowing successful sign in with valid credentials.
+User Story 11- Negative test case:  This test will go through the sign in functions for the 'https://www.chipotle.com/' and verify that each input field works correctly, allowing successful sign in with valid credentials.
 
 Login information for User Story 5:
 **Valid Credentials**
