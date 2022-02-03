@@ -31,7 +31,7 @@ NOTE: This test was executed only manually due to the website not allowing for a
 
 
 
-Trello-Manual Test
+Trello-Manual Test User Story 5
 **Overview:**
 Once a user clicks on the sign in button, they are able to sign in with valid credentials.
 
