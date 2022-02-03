@@ -7,21 +7,15 @@ email=userstory7@gmail.com
 password=UserStory7*
 
 1. Open your browser
-
 2. Navigate to the https://www.chipotle.com
    *Verify that you are on the homepage
-   
 3. Click on the sign in button.
-
 4. Click on the email input field and enter a valid email address.
    *Enter email as: userstory6chipotle@gmail.com.
-
 5. Click on the password input field and enter a valid  password.
    *Enter password as: Userstory6*.
-
 6. Click on the sign in button.
    *User should be signed in successfully.
-
 7.Verify the username on the top of the page.
    
 NOTE: This test was executed only manually due to the website not allowing for automated testing.
