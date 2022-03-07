@@ -12,7 +12,7 @@ Login information for User Story 6:N/A
    *On the top of the page.
 
 4. Verify the Sandwiches-Burgers-Coneys-Wraps menu on the middle of the page.
-   *User can see the menu successfully.
+   *User can see the menu successfully...
 
 
 

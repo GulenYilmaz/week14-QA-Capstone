@@ -9,7 +9,7 @@ Login information for User Story 4 :N/A
    *Verify that you are on the homepage.
    
 3. Click on the MENU button.
-   *On the top of the page.
+   *On the top of the page...
 
 
 

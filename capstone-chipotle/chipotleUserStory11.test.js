@@ -50,6 +50,7 @@ describe("Capstone Project- Chipotle User Story-5 , sign in a valid credentials"
         let passwordInputField= await driver.findElement(By.xpath('//input[@aria-label="Enter password"]'))
         await passwordInputField.sendKeys("Userstory6*")
         await driver.sleep(2000)
+        
     })
 
     it("Click on the sign in button.", async()=>{
@@ -72,6 +73,7 @@ describe("Capstone Project- Chipotle User Story-5 , sign in a valid credentials"
 
         await driver.sleep(2000)
     })
+
 
 
 })

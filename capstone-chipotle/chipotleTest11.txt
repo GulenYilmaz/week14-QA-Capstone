@@ -18,6 +18,7 @@ password=UserStory7*
    *User should be signed in successfully.
 7.Verify the username on the top of the page.
    
+
 NOTE: This test was executed only manually due to the website not allowing for automated testing.
 //NOTE from the website:The website does not allow to automated/browser/controlled logged in.
 
@@ -28,6 +29,7 @@ NOTE: This test was executed only manually due to the website not allowing for a
 Trello-Manual Test User Story 5
 **Overview:**
 Once a user clicks on the sign in button, they are able to sign in with valid credentials.
+
 
 **Links:**
 "https://www.chipotle.com/"

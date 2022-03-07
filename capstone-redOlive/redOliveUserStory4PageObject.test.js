@@ -7,7 +7,7 @@ const MyRedOlivePage=new REDOLIVE (driver,'https://redoliverestaurant.com/')
 jest.setTimeout(9000) 
 
 
-// beforeAll(async() =>{
+// beforeAll(async() =>{  start for each test
 // await MyRedOlivePage.navigateToredoliveHomePage()
 // })
 // afterAll(async ()=>{

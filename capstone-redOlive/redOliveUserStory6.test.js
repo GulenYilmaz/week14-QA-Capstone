@@ -69,6 +69,8 @@ describe("Capstone Project- Red Olive User Story-6, select the Breakfast from th
         expect(verifyURL).toContain('https://redoliverestaurant.com/')
          jest.setTimeout(9000)
 
+         
+
 // let verifyTitle= driver.getTitle()
 // console.log("Current title is: " + verifyTitle)
 //         expect(verifyTitle).toContain('[object Promise]')

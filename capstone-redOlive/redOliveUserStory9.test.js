@@ -58,6 +58,7 @@ describe("Capstone Project- Red Olive User Story-6, select the Breakfast from th
     expect(steakSandwichImageText).toBeTruthy();
     jest.setTimeout(9000)
     })
+    
 
 
 })
